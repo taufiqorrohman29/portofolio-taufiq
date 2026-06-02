@@ -294,3 +294,29 @@ footer {
         font-size: 2rem;
     }
 }
+
+/* CV Button Styling */
+.btn-cv {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+    border-radius: 4px;
+    box-shadow: 0 0 10px var(--glow-color);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-cv:hover {
+    background-color: transparent;
+    color: var(--primary-blue);
+    box-shadow: 0 0 20px var(--glow-color);
+    transform: translateY(-2px);
+}
